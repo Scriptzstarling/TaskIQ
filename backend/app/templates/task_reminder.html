@@ -1,0 +1,25 @@
+<!-- backend/app/templates/task_reminder.html -->
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f8fafc;padding:24px 0;">
+  <tr>
+    <td align="center">
+      <table width="480" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:12px;box-shadow:0 2px 8px #e2e8f0;">
+        <tr>
+          <td style="padding:32px;">
+            <h2 style="font-family:Inter,sans-serif;color:#0f172a;margin:0 0 12px 0;">Task Reminder</h2>
+            <p style="font-family:Inter,sans-serif;color:#334155;font-size:16px;margin:0 0 20px 0;">
+              <strong>Task:</strong> {{ title }}<br>
+              <strong>Description:</strong> {{ description }}<br>
+              <strong>Due Date:</strong> {{ due_date }}
+            </p>
+            <div style="margin:24px 0;">
+              <a href="#" style="background:#2563eb;color:#fff;font-family:Inter,sans-serif;font-weight:500;padding:10px 24px;border-radius:6px;text-decoration:none;display:inline-block;">View in App</a>
+            </div>
+            <p style="font-family:Inter,sans-serif;color:#64748b;font-size:13px;margin:0;">
+              This is an automated reminder from <strong>Smart Task Management</strong>.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
